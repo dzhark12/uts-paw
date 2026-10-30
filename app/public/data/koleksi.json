@@ -1,10 +1,90 @@
 [
   {
     "id": "1",
-    "judul": "Contoh item pertama",
-    "kategori": "Contoh",
-    "fieldTema1": "ganti sesuai field tema",
-    "fieldTema2": 0,
-    "fieldTema3": "ganti sesuai field tema"
+    "judul": "Snackgramlampung",
+    "kategori": "Restoran",
+    "alamat": "Jl. Airan Raya Jl. Camar No.49, Way Hui, Jati Agung, Lampung Selatan",
+    "hargaRataRata": 14533,
+    "jamBuka": "00:00-23:59 WIB"
+  },
+  {
+    "id": "2",
+    "judul": "Chicken steak.id",
+    "kategori": "Restoran",
+    "alamat": "Jl. Hi Pangeransuhaimi, Harapan Jaya, Sukarame, Bandar Lampung",
+    "hargaRataRata": 26836,
+    "jamBuka": "12:00-21:30 WIB"
+  },
+  {
+    "id": "3",
+    "judul": "Nuju Coffee Korpri | Coffee Shop Lampung",
+    "kategori": "Coffee Shop",
+    "alamat": "Jl. Ryacudu No.5, Harapan Jaya, Sukarame, Bandar Lampung",
+    "hargaRataRata": 20402,
+    "jamBuka": "09:30-00:00 WIB"
+  },
+  {
+    "id": "4",
+    "judul": "Pempek 115",
+    "kategori": "Restoran",
+    "alamat": "Jl. Ryacudu No.4, korpri raya, Sukarame, Bandar Lampung",
+    "hargaRataRata": 7100,
+    "jamBuka": "07:56-22:00 WIB"
+  },
+  {
+    "id": "5",
+    "judul": "MINUMIN ITERA, Way Huwi",
+    "kategori": "Coffee Shop",
+    "alamat": "Jl. Lapas Raya, Way Hui, Jati Agung, Lampung Selatan",
+    "hargaRataRata": 10211,
+    "jamBuka": "10:00-22:00 WIB"
+  },
+  {
+    "id": "6",
+    "judul": "Geprek KFC Kahfi Friedchicken, Gg Sakai Tj.seneng",
+    "kategori": "Restoran",
+    "alamat": "Jl. Kaswari No.10, Way Hui, Jati Agung, Lampung Selatan",
+    "hargaRataRata": 13273,
+    "jamBuka": "10:00-21:00 WIB"
+  },
+  {
+    "id": "7",
+    "judul": "Nuggedtin-Katsu,Nugged,Steak-Berkualitas",
+    "kategori": "Restoran",
+    "alamat": "Jl. Lapas Raya, RT.05/RW.Dusun 06, Way Hui, Jati Agung, Lampung Selatan",
+    "hargaRataRata": 19.664,
+    "jamBuka": "09:00-21:00 WIB"
+  },
+  {
+    "id": "8",
+    "judul": "Roti bakar Sukarame Airan Raya",
+    "kategori": "Bakery",
+    "alamat": "Jl. Airan Raya No. 1 Way Hui, Jati Agung, Lampung Selatan",
+    "hargaRataRata": 24323,
+    "jamBuka": "16:00-22:00 WIB"
+  },
+  {
+    "id": "9",
+    "judul": "Miebara Airan Raya",
+    "kategori": "Restoran",
+    "alamat": "Jl. Airan Raya, Way Hui, Jati Agung, Lampung Selatan",
+    "hargaRataRata": 22988,
+    "jamBuka": "09:00-22:00 WIB"
+  },
+  {
+    "id": "10",
+    "judul": "Mie Jebew Mantap Airan",
+    "kategori": "Restoran",
+    "alamat": "Jl. Airan Raya, Way Hui, Jati Agung, Lampung Selatan",
+    "hargaRataRata": 11725,
+    "jamBuka": "10:00-17:00 WIB"
+  },
+  {
+    "id": "11",
+    "judul": "Kantin Sean",
+    "kategori": "Restoran",
+    "alamat": "Jl. Nangka III, Korpri Jaya, Sukarame, Bandar Lampung",
+    "hargaRataRata": 9143,
+    "jamBuka": "10:00-22:00 WIB"
   }
 ]
