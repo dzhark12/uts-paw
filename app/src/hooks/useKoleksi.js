@@ -1,8 +1,8 @@
-import { useContext } from "react";
-import { koleksiContext } from "../context/KoleksiContext";
+import { useContext } from 'react'
+import { KoleksiContext } from '../context/koleksiContext.js'
 
 export default function useKoleksi() {
-    const context = useContext(koleksiContext)
-    if (!context) throw new Error('useKoleksi harus diapakai di dalam <koleksiProvider')
-    return context
+    const konteks = useContext(KoleksiContext)
+    if (!konteks) throw new Error('useKoleksi harus dipakai di dalam <KoleksiProvider>')
+    return konteks
 }
