@@ -1,0 +1,18 @@
+.komentar {
+    flex: auto;
+    background-color: red;
+}
+
+.komentar-input {
+    justify-content: center;
+    align-items: center;
+}
+
+.komentar-submit {
+    background-color: aqua;
+}
+
+.komentar-daftar {
+    list-style-position: inside;
+    padding: 0;
+}

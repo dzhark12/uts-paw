@@ -1,15 +1,20 @@
 import { useState } from "react";
-import useLocalStorage from "../hooks/useLocalStorage";
+import useKoleksi from "../hooks/useKoleksi";
+import './Komentar.css'
 
 export default function Komentar({ itemId }) {
-    const [teks, setTeks] = useState()
-    const [komentar, setKomentar] = useLocalStorage(`uts-paw:komentar:${itemId}`, [])
+    const { items, tambahKomen } = useKoleksi()
+    const [teks, setTeks] = useState('')
+    const item = items.find((item) => String(item.id) === String(itemId))
+    let komentar = []
+    if (item && item.komentar) {
+        komentar = item.komentar
+    }
 
     const kirim = (e) => {
         e.preventDefault()
         if (!teks.trim()) return
-
-        setKomentar((sebelumnya) => [...sebelumnya, teks.trim()])
+        tambahKomen(itemId, teks.trim())
         setTeks('')
     }
     return (
@@ -23,7 +28,7 @@ export default function Komentar({ itemId }) {
                 <button className="komentar-submit" type="submit"> Kirim </button>
             </form>
 
-            <ul>
+            <ul className="komentar-daftar">
                 {komentar.map((isi, index) => (
                     <li key={index} > {isi} </li>
                 ))}

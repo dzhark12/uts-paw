@@ -25,9 +25,10 @@ export function KoleksiProvider({ children }) {
 
     const tambah = (item) => setItems((lama) => [...(lama ?? []), { ...item, id: String(Date.now()) }])
     const hapus = (id) => setItems((lama) => lama.filter((item) => item.id !== id))
-
+    const beriRating = (id, nilai) => setItems((lama) => (lama ?? []).map((item) => item.id === id ? { ...item, rating: nilai } : item))
+    const tambahKomen = (id, nilai) => setItems((lama) => (lama ?? []).map((item) => item.id === id ? { ...item, komentar: [...(item.komentar ?? []), nilai] } : item))
     return (
-        <KoleksiContext.Provider value={{ items: items ?? [], loading, error, tambah, hapus }}>
+        <KoleksiContext.Provider value={{ items: items ?? [], loading, error, tambah, hapus, beriRating, tambahKomen }}>
             {children}
         </KoleksiContext.Provider>
     )
