@@ -2,20 +2,24 @@
 # Nama Aplikasi
 
 Nama: Dzaky Faris Al Faqih
+
 NIM: 124140077
+
 Kelas: RB
+
 Tema: Direktori Kuliner Sekitar Kampus
+
 Deployment: https://dzhark12.github.io/uts-paw/
 
 ![Tangkapan layar beranda](docs/beranda.png)
 *Gambar 1. Halaman Beranda*
-![Tangkapan layar koleksi](docs/beranda.png)
+![Tangkapan layar koleksi](docs/koleksi.png)
 *Gambar 2. Halaman Koleksi*
-![Tangkapan layar tambah](docs/beranda.png)
+![Tangkapan layar tambah](docs/tambah.png)
 *Gambar 3. Halaman Tambah*
-![Tangkapan layar statistik](docs/beranda.png)
+![Tangkapan layar statistik](docs/statistik.png)
 *Gambar 4. Halaman Statistik*
-![Tangkapan layar tentang](docs/beranda.png)
+![Tangkapan layar tentang](docs/tentang.png)
 *Gambar 5. Halaman Tentang*
 ![Tangkapan layar 404](docs/404.png)
 *Gambar 6. Halaman 404*
