@@ -28,3 +28,21 @@ test('form menolak judul kosong', async () => {
   await userEvent.click(screen.getByRole('button', { name: 'Simpan' }))
   expect(screen.getByRole('alert')).toHaveTextContent('Judul wajib diisi')
 })
+
+test('form menolak judul kosong', async () => {
+  buka('/tambah')
+  await userEvent.click(screen.getByRole('button', { name: 'Simpan' }))
+  expect(screen.getByRole('alert')).toHaveTextContent('Judul wajib diisi')
+})
+
+test('form menolak judul kosong', async () => {
+  buka('/tambah')
+  await userEvent.click(screen.getByRole('button', { name: 'Simpan' }))
+  expect(screen.getByRole('alert')).toHaveTextContent('Judul wajib diisi')
+})
+
+test('form menolak judul kosong', async () => {
+  buka('/tambah')
+  await userEvent.click(screen.getByRole('button', { name: 'Simpan' }))
+  expect(screen.getByRole('alert')).toHaveTextContent('Judul wajib diisi')
+})
