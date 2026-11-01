@@ -28,7 +28,6 @@ export default function Tambah() {
             ...form,
             judul: form.judul.trim(),
             alamat: form.alamat.trim(),
-            // jamBuka: form.jamBuka.trim(),
             jamBuka: form.jamMulai && form.jamSelesai ? `${form.jamMulai}-${form.jamSelesai} WIB` : '',
             hargaRataRata: Number(form.hargaRataRata)
         })
@@ -56,7 +55,6 @@ export default function Tambah() {
             <input id="hargaRataRata" name="hargaRataRata" type='number' value={form.hargaRataRata} onChange={ubah} />
 
             <label htmlFor="jamBuka">Jam Buka</label>
-            {/* <input id="jamBuka" name="jamBuka" placeholder="Contoh: 09:00 - 22:00 WIB" value={form.jamBuka} onChange={ubah} /> */}
             <div className="jam-buka">
                 <label htmlFor="jamMulai">Dari</label>
                 <input id="jamBuka" name="jamMulai" type="time" value={form.jamMulai} onChange={ubah} />
