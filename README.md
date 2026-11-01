@@ -36,10 +36,11 @@ Deployment: https://dzhark12.github.io/uts-paw/
 - Memberi rating pada tempat
 
 ## Menjalankan secara lokal
-
+``` bash
 cd app
 npm install
 npm run dev
+```
 
 ## Konsep React yang dipakai
 
