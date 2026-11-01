@@ -1,5 +1,4 @@
 
-```markdown
 # Nama Aplikasi
 
 Nama: Dzaky Faris Al Faqih
@@ -41,4 +40,3 @@ Komponen fungsional dengan props minimal 5 (`KartuItem`, `Komentar`, - `Layout`,
 - React Router: NavLink atau Link, useParams, dan useNavigate.
 - Rendering daftar dengan map dan key, rendering bersyarat, form terkontrol.
 - HTML semantik (header, nav, main, footer) dan CSS responsif.
-```
