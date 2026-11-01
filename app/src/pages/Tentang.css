@@ -1,6 +1,14 @@
 #identitas-tugas {
     background-color: #eceff4;
-    border-radius: 8px;
+    border-radius: 24px;
+    padding: 36px 40px;
+    box-shadow: 0 0 8px #5e81ac;
+}
+
+.tentang h1 {
+    color: #5e81ac;
+    font-size: 32px;
+    font-weight: 700;
 }
 
 #profilgithub {

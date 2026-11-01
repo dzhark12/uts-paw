@@ -33,6 +33,7 @@
 
 .kaki {
     padding: 1rem 1.5rem;
+    left: 0;
     border-top: 1px solid #dcdcdc;
     color: #2e3440;
     font-size: 0.9rem;
@@ -67,10 +68,10 @@
 }
 
 .kartu {
-    padding: 1rem;
-    border: 1px solid #dcdcdc;
-    border-radius: 8px;
     background-color: #eceff4;
+    border-radius: 24px;
+    padding: 36px 40px;
+    box-shadow: 0 0 8px #5e81ac;
 }
 
 .kartu h3 {

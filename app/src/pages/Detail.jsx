@@ -36,7 +36,7 @@ export default function Detail() {
                 <dt>Alamat</dt>
                 <dd>{item.alamat}</dd>
                 <dt>Harga Rata-rata</dt>
-                <dd>{item.hargaRataRata}</dd>
+                <dd>Rp. {item.hargaRataRata.toLocaleString('id-ID')}</dd>
                 <dt>Jam Buka</dt>
                 <dd>{item.jamBuka}</dd>
             </dl>
@@ -44,12 +44,12 @@ export default function Detail() {
                 <button type="button" onClick={konfirmasiHapus}>
                     Hapus
                 </button>
-                <Link to="/koleksi">Kembali</Link>
+                <div id="linkkoleksi2">
+                    <Link to="/koleksi">Kembali</Link>
+                </div>
             </div>
             <Rating itemId={item.id} />
             <Komentar itemId={item.id} />
-
-
         </section>
     )
 }

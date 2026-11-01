@@ -5,13 +5,12 @@ import "./Tentang.css"
 const REPO = 'https://github.com/dzhark12/uts-paw'
 
 export default function Tentang() {
-    const fotoProfil = "https://avatars.githubusercontent.com/u/144516311?v=4"
     const { nama, nim, kelas, tema } = mahasiswa
     return (
-        <section>
+        <section className='tentang'>
             <h1>Tentang</h1>
             <div id="fotoprofil">
-                <img src={fotoProfil} alt={nama} id="profilgithub" />
+                <img src={`${import.meta.env.BASE_URL}avatargithub.jpg`} alt={nama} id="profilgithub" />
             </div>
             <dl id="identitas-tugas">
                 <dt>Nama</dt>

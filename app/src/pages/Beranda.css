@@ -1,0 +1,50 @@
+#beranda-awal {
+    background-color: #eceff4;
+    border-radius: 24px;
+    padding: 36px 80px;
+    box-shadow: 0 0 8px #5e81ac;
+}
+
+#beranda-awal h1 {
+    color: #5e81ac;
+    font-size: 32px;
+    font-weight: 700;
+}
+
+#beranda-awal {
+    flex: 1;
+    display: flex;
+    flex-direction: column;
+}
+
+.foto-beranda {
+    flex: 1;
+    border-radius: 24px;
+    display: flex;
+}
+
+.foto-beranda img {
+    border-radius: 24px;
+    width: 99%;
+}
+
+
+.link-koleksi {
+    display: inline-block;
+    background-color: #5e81ac;
+    text-decoration: none;
+    border-radius: 16px;
+    padding: 8px 16px;
+    font-weight: 500;
+    border: 2px solid;
+    font-size: 15px;
+    box-shadow: 0 0 4px;
+    flex-direction: column;
+    align-items: flex-start;
+    flex: 1;
+}
+
+.link-koleksi:hover {
+    background-color: #81a1c1;
+    border-color: #5e81ac;
+}

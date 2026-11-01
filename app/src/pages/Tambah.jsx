@@ -3,7 +3,7 @@ import { useNavigate } from 'react-router-dom'
 import useKoleksi from '../hooks/useKoleksi.js'
 import './Tambah.css'
 
-const AWAL = { judul: '', kategori: 'Restoran', alamat: '', hargaRataRata: '', jamBuka: '' }
+const AWAL = { judul: '', kategori: 'Restoran', alamat: '', hargaRataRata: '12000', jamBuka: '' }
 
 export default function Tambah() {
     const { tambah } = useKoleksi()
@@ -49,7 +49,7 @@ export default function Tambah() {
             </select>
 
             <label htmlFor="alamat">Alamat </label>
-            <input id="alamat" name="alamat" placeholder="Jl. Airan Raya, Way Hui, Jati Agung, Lampung Selatan" value={form.alamat} onChange={ubah} required />
+            <input id="alamat" name="alamat" placeholder="Contoh: Jl. Airan Raya, Way Hui, Jati Agung, Lampung Selatan" value={form.alamat} onChange={ubah} required />
 
             <label htmlFor="hargaRataRata">Harga Rata-rata</label>
             <input id="hargaRataRata" name="hargaRataRata" type='number' value={form.hargaRataRata} onChange={ubah} />
@@ -61,11 +61,6 @@ export default function Tambah() {
                 <label htmlFor="jamSelesai">Sampai</label>
                 <input id="jamBuka2" name="jamSelesai" type="time" value={form.jamSelesai} onChange={ubah} />
             </div>
-
-
-
-
-
 
             {galat && <p role="alert">{galat}</p>}
             <button type="submit">Simpan</button>

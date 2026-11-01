@@ -1,4 +1,25 @@
 #detail-item {
     border-radius: 8px;
     background-color: #eceff4;
+    padding: 20px;
+}
+
+.aksi button {
+    background-color: #81a1c1;
+    margin-left: 8px;
+}
+
+.aksi button:hover {
+    background-color: #094179;
+}
+
+#linkkoleksi2 {
+    background-color: #81a1c1;
+    margin-left: 8px;
+    box-shadow: #2e3440;
+    border: solid #2e3440 1px;
+}
+
+#linkkoleksi2 :hover {
+    background-color: #094179;
 }

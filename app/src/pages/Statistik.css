@@ -1,31 +1,55 @@
 .tabel-gulir {
     overflow-x: auto;
+    width: 100%;
 }
+
+.statistic-section {
+    max-width: 750px;
+    background-color: #eceff4;
+    border-radius: 24px;
+    padding: 24px 48px;
+    box-shadow: 0 0 8px #5e81ac;
+    box-sizing: border-box;
+    width: 100%;
+    box-sizing: border-box;
+}
+
+.statistic-section h1 {
+    color: #5e81ac;
+    font-size: 32px;
+    font-weight: 700;
+}
+
 
 .tabel-data {
     width: 100%;
-    max-width: 480px;
-    border-collapse: collapse;
+    border-collapse: separate;
+    border-radius: 8px;
+    border: 2px solid #2e3440;
 }
 
 .tabel-data th,
 .tabel-data td {
-    padding: 0.5rem 0.75rem;
-    border-bottom: 1px solid #dcdcdc;
+    padding: 0.6rem 0.85rem;
+    border-bottom: 4px solid #2e3440;
     text-align: left;
+    border-right: 2px solid;
 }
 
 .tabel-data thead th {
-    background: var(--nord6);
+    background: #e5e5e5;
+    color: #2e3440;
+    font-weight: 700;
 }
 
 .tabel-data tbody tr:nth-child(even) {
-    background: #fafafa;
+    background: #eceff4;
 }
 
 .tabel-data td:last-child,
 .tabel-data th:last-child {
     text-align: right;
+    border-right: none;
 }
 
 .tabel-data tfoot th,
@@ -34,10 +58,15 @@
     font-weight: 600;
 }
 
-@media (max-width: 480px) {
+.tabel-data tfoot tr {
+    background-color: #eceff4;
+}
+
+@media (max-width: 600) {
 
     .tabel-data th,
     .tabel-data td {
-        padding: 0.4rem 0.5rem;
+        padding: 20px;
+        border-radius: 14px;
     }
 }
