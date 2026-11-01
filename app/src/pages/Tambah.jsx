@@ -35,11 +35,11 @@ export default function Tambah() {
     }
 
     return (
-        <form className="formulir" onSubmit={simpan} noValidate>
+        <form className="formulir" onSubmit={simpan}>
             <h1>Tambah Direktori Kuliner</h1>
 
             <label htmlFor="judul">Judul</label>
-            <input id="judul" name="judul" value={form.judul} onChange={ubah} />
+            <input id="judul" name="judul" value={form.judul} placeholder="Minimal 3 karakter" onChange={ubah} />
 
             <label htmlFor="kategori">Kategori</label>
             <select id="kategori" name="kategori" value={form.kategori} onChange={ubah}>
@@ -49,7 +49,7 @@ export default function Tambah() {
             </select>
 
             <label htmlFor="alamat">Alamat </label>
-            <input id="alamat" name="alamat" placeholder="Jl. Airan Raya, Way Hui, Jati Agung, Lampung Selatan" value={form.alamat} onChange={ubah} />
+            <input id="alamat" name="alamat" placeholder="Jl. Airan Raya, Way Hui, Jati Agung, Lampung Selatan" value={form.alamat} onChange={ubah} required />
 
             <label htmlFor="hargaRataRata">Harga Rata-rata</label>
             <input id="hargaRataRata" name="hargaRataRata" type='number' value={form.hargaRataRata} onChange={ubah} />

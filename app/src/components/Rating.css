@@ -1,0 +1,33 @@
+.rating {
+    background-color: #eceff4;
+    border-radius: 8px;
+}
+
+.rating h2 {
+    padding: 8px;
+}
+
+.rating p {
+    padding: 8px;
+}
+
+.rating button {
+    padding: 8px;
+    margin-left: 8px;
+    background-color: #eceff4;
+    border: 1px solid;
+    border-radius: 4px;
+    font-size: 24;
+    cursor: pointer;
+    color: 666;
+}
+
+#rating-button:hover {
+    background-color: #5e81ac;
+    border-color: black
+}
+
+#rating-button:active {
+    background-color: #81a1c1;
+    color: #81a1c1;
+}

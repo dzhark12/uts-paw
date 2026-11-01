@@ -1,4 +1,5 @@
 import { Link, useNavigate, useParams } from 'react-router-dom'
+import "./Detail.css"
 import useKoleksi from '../hooks/useKoleksi.js'
 import Komentar from '../components/Komentar.jsx'
 import Rating from '../components/Rating.jsx'
@@ -29,7 +30,7 @@ export default function Detail() {
     return (
         <section>
             <h1>{item.judul}</h1>
-            <dl>
+            <dl id="detail-item">
                 <dt>Kategori</dt>
                 <dd>{item.kategori}</dd>
                 <dt>Alamat</dt>
