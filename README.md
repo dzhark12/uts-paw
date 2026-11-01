@@ -8,11 +8,17 @@ Tema: Direktori Kuliner Sekitar Kampus
 Deployment: https://dzhark12.github.io/uts-paw/
 
 ![Tangkapan layar beranda](docs/beranda.png)
+*Gambar 1. Halaman Beranda*
 ![Tangkapan layar koleksi](docs/beranda.png)
+*Gambar 2. Halaman Koleksi*
 ![Tangkapan layar tambah](docs/beranda.png)
+*Gambar 3. Halaman Tambah*
 ![Tangkapan layar statistik](docs/beranda.png)
+*Gambar 4. Halaman Statistik*
 ![Tangkapan layar tentang](docs/beranda.png)
+*Gambar 5. Halaman Tentang*
 ![Tangkapan layar 404](docs/404.png)
+*Gambar 6. Halaman 404*
 
 ## Fitur
 
